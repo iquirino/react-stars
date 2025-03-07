@@ -1,11 +1,11 @@
 {
-  "name": "react-stars",
+  "name": "new-react-stars",
   "version": "2.2.3",
   "description": "Simple star rating component for your React projects",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/n49/react-stars.git",
+  "repository": "https://github.com/iquirino/react-stars.git",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
@@ -20,7 +20,7 @@
     "component",
     "raty"
   ],
-  "author": "Oleg Berman",
+  "author": "Igor Quirino",
   "license": "ISC",
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.5",

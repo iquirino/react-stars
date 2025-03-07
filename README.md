@@ -3,15 +3,30 @@
 
 ![react-stars](http://i.imgur.com/VDbzbqF.gif)
 
+## This is a Fork
+This is a fork of the original [react-stars](https://github.com/n49/react-stars) project. The original project is no longer maintained and I needed to add some features to it. I will try to keep this fork up to date with the original project.
+
+### Changes
+- Migrate source code to TypeScript
+- Added storybook for development
+- Added rollup for building
+- Functional component instead of class component
+- Support for react 19
+
+### Issues Fixed
+- [Warning: componentWillReceiveProps has been renamed](https://github.com/n49/react-stars/issues/79)
+- [Prop 'dangerouslySetInnerHTML' did not match.](https://github.com/n49/react-stars/issues/78)
+- Others? ...
+
 ### Get started quickly
 
 ###### Install react-stars package with NPM:
-`npm install react-stars --save`
+`npm install new-react-stars --save`
 
 Then in your project include the component:
 
 ```javascript
-import ReactStars from 'react-stars'
+import ReactStars from 'new-react-stars'
 import React from 'react'
 import { render } from 'react-dom'
 
