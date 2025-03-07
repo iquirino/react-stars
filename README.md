@@ -64,26 +64,24 @@ This a list of props that you can pass down to the component:
 ###### Build on your machine:
 ```bash
 # Clone the repo
-git clone git@github.com:n49/react-stars.git
+git clone git@github.com:iquirino/react-stars.git
 # Go into project folder
 cd react-stars
 # Install dependancies
 npm install
 ```
+
 Build the component:
 ```bash
 npm build
 ```
-Run the examples (dev):
+
+Run storybook (dev):
 ```bash
-npm run dev-example
-```
-Build the examples (production):
-```bash
-npm run build-example
+npm run storybook
 ```
 
-Then in your browser go to: [http://127.0.0.1:8080/example](http://127.0.0.1:8080/example)
+Then in your browser go to: [http://localhost:6006](http://localhost:6006)
 
 ### Requirements
 

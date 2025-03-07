@@ -232,7 +232,7 @@ export const ReactStars: React.FC<ReactStarsProps> = ({
         <span
           className={starClass}
           style={style}
-          key={i}
+          key={`${i}-${star.active ? "active" : "inactive"}-${uniqueness}`}
           data-index={i}
           data-forhalf={config.char}
           onMouseOver={mouseOver}
@@ -248,7 +248,7 @@ export const ReactStars: React.FC<ReactStarsProps> = ({
 
   return (
     <div className={className} style={parentStyles}>
-      {config.half ? renderHalfStarStyleElement() : ""}
+      {config.half ? renderHalfStarStyleElement() : null}
       {renderStars()}
     </div>
   );

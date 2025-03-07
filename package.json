@@ -1,13 +1,13 @@
 {
   "name": "new-react-stars",
-  "version": "2.2.3",
+  "version": "2.2.8",
   "description": "Simple star rating component for your React projects",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/iquirino/react-stars.git",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -36,7 +36,7 @@
     "@storybook/react": "^8.6.4",
     "@storybook/react-webpack5": "^8.6.4",
     "@storybook/test": "^8.6.4",
-    "@types/react": "^19.0.0",
+    "@types/react": "^19.0.10",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -46,5 +46,9 @@
     "storybook": "^8.6.4",
     "tslib": "^2.8.1",
     "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   }
 }
